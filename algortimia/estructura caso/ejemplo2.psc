@@ -10,11 +10,11 @@ Proceso convertirnumeroletra
 	texto="";
 	
 	si num > 0 && num < 100 entonces
-		decena = trunc(num%10);
-		unidad = trunc(num/10);
+		unidad = trunc(num%10);
+		decena = trunc(num/10);
 		
 		
-	Segun unidad Hacer
+	Segun decena Hacer
 		1:
 			texto=" diez y ";
 		2:
@@ -36,7 +36,7 @@ Proceso convertirnumeroletra
 	FinSegun
 	
 	
-	Segun decena Hacer
+	Segun unidad Hacer
 		0:
 			texto = texto+" cero";
 		1:
