@@ -41,6 +41,7 @@ Proceso sin_titulo
 				Escribir "gracias por usa el aplicatico calculadorsita";
 			De Otro Modo:
 				Escribir "la opcion que usted selecciono no es existe";
+				Esperar 2 segundo;
 		FinSegun
 		
 		
