@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package edu.co.sena.ejemplooperadores.operadoresaritmeticos;
+
+/**
+ *
+ * @author hernando
+ */
+public class Ejemplo2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int a, b, c, d, h, j;
+        a=5;
+        b=10;
+        c=b++;
+        d=c++;
+        h=--a;
+        j=a--;
+        
+        boolean con = true;
+        System.out.println(!con);
+        
+    }
+    
+}

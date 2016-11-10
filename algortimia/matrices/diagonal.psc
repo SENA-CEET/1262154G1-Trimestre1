@@ -8,6 +8,7 @@ Proceso sumadiagonal
 	
 	Para i=0 Hasta fila-1 Con Paso 1 Hacer
 		Para j=0 Hasta columna-1 Con Paso 1 Hacer
+			escribir "digite el numero para la posicion[",i,",",j,"]";
 			leer matriz[i,j];
 		FinPara
 	FinPara
